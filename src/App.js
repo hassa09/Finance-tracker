@@ -1,10 +1,14 @@
-
 import './App.css';
+import Finance from './components/Finance.js/Finance';
+import FinanceDate from './components/FinanceDate/FinanceDate'
+
 
 function App() {
   return (
     <div className="App">
-      <p>hello there</p>
+      <Finance />
+      <FinanceData />
+     
     </div>
   );
 }
